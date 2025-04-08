@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <record id="view_hotel_room_type_tree" model="ir.ui.view">
+    <record id="view_hotel_room_type_list" model="ir.ui.view">
         <field name="name">hotel.room.type.list</field>
         <field name="model">hotel.room.type</field>
-        <field name="type">list</field>
         <field name="arch" type="xml">
-            <list>
+            <list string="Room Types">
                 <field name="name"/>
                 <field name="max_occupancy"/>
                 <field name="base_price"/>

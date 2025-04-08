@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <record id="view_hotel_rate_plan_tree" model="ir.ui.view">
+    <record id="view_hotel_rate_plan_list" model="ir.ui.view">
         <field name="name">hotel.rate.plan.list</field>
         <field name="model">hotel.rate.plan</field>
         <field name="arch" type="xml">
-            <list>
+            <list string="Rate Plans">
                 <field name="name"/>
                 <field name="room_type_id"/>
                 <field name="start_date"/>
@@ -19,7 +19,6 @@
     <record id="view_hotel_rate_plan_form" model="ir.ui.view">
         <field name="name">hotel.rate.plan.form</field>
         <field name="model">hotel.rate.plan</field>
-        <field name="type">form</field>
         <field name="arch" type="xml">
             <form>
                 <sheet>
