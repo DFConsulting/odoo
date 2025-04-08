@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_hotel_management_root"
+        name="Hotel Management"
+        sequence="10"/>
+
+    <menuitem id="menu_hotel_management_configuration"
+        name="Configuration"
+        parent="menu_hotel_management_root"
+        sequence="10"/>
+
+    <menuitem id="menu_hotel_room_type"
+        name="Room Types"
+        parent="menu_hotel_management_configuration"
+        action="action_hotel_room_type"
+        sequence="10"/>
+
+    <menuitem id="menu_hotel_management_operations"
+        name="Operations"
+        parent="menu_hotel_management_root"
+        sequence="20"/>
+
+    <menuitem id="menu_hotel_room"
+        name="Rooms"
+        parent="menu_hotel_management_operations"
+        action="action_hotel_room"
+        sequence="10"/>
+
+    <menuitem id="menu_hotel_rate_plan"
+        name="Rate Plans"
+        parent="menu_hotel_management_operations"
+        action="action_hotel_rate_plan"
+        sequence="20"/>
+</odoo> 
