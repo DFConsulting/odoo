@@ -27,6 +27,7 @@ ENV/
 /src/
 /env/
 /odoo/env/
+odoo-venv/
 /venv/
 
 # === Odoo-specific ===
